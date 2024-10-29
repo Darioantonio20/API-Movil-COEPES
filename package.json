@@ -4,6 +4,6 @@
     "mysql2": "^3.11.3"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   }
 }
