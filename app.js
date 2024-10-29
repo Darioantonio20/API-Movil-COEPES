@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 app.use('/api', apiRoutes);
 
 // Iniciar el servidor
-const PORT = 8080;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
